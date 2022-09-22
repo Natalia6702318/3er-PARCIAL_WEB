@@ -1,0 +1,36 @@
+body {
+    font-family: Raleway;
+}
+
+.menu {
+    font-family: Helvetica;
+    overflow: hidden;
+    background-color: #8C4966;
+    padding: 5px;
+    font-size: large;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.menu a {
+    font-family: Helvetica;
+    font-size: large;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    font-weight: bold;
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    color: #E69DFB;
+    float: left;
+}
+
+.menu a:hover {
+    background: #BBA9BB;
+    color: black;
+    border: 6px solid ;
+}
